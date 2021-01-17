@@ -100,7 +100,7 @@ print("Votre score final est de :", score,"points !")
 
 
 
-# tableau=[["Tableau des scores"],["Classement","Nom","Score"],[1,0,0],[2,0,0],[3,0,0],[4,0,0],[5,0,0],[6,0,0],[7,0,0],[8,0,0],[9,0,0],[10,0,0]]
+# tableau=[["Tableau des scores"],["Classement","Nom","Score"],[1,".....",0],[2,".....",0],[3,".....",0],[4,".....",0],[5,".....",0],[6,".....",0],[7,".....",0],[8,".....",0],[9,".....",0],[10,".....",0]]
 
 
 # with open ("score.csv", "w") as f:
