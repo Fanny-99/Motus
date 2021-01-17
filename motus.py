@@ -44,9 +44,6 @@ for nb_partie in range (5):
 
 
     while compteur<=5 and gagne==False:
-        print(compteur)
-        
-        print(mot_alea)
         
 
         resultat_tempo=bien_place(mot_alea,mot)
@@ -61,7 +58,6 @@ for nb_partie in range (5):
         else:
             
             compteur+=1
-            print(compteur)
             reponse_color=color(mot,mot_tempo,resultat_tempo)
             print("Le résultat est:",reponse_color)
             liste_result.append(mot)
@@ -73,7 +69,6 @@ for nb_partie in range (5):
                 break
             
 
-    print(gagne) 
    
     if compteur==0 and gagne==True:
         score_partie=300
