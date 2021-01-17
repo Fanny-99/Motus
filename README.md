@@ -10,7 +10,7 @@ Une partie complète se déroule en 5 manches entre lesquelles le joueur pourra 
 
 --Lancement du jeu et interactions:
 
-Pour lancer le jeu, il faut tout d'abord télécharger tous les fichiers fournis. La première fois que le jeu est lancé, il faut décommenter la partie commentée avec le tableau à la fin du code principal. Cela permet de créer le fichier où seront sauvegardés les scores. Il est nécessaire de commenté cette partie à la fin de la première partie de jeu, sinon le tableau sera réinitialisé à chaque fois. Pour lancer le jeu, il faut entrer la commande suivante dans le terminal:python motus.py.
+Pour lancer le jeu, il faut tout d'abord télécharger tous les fichiers fournis. La première fois que le jeu est lancé, il faut décommenter la partie commentée avec le tableau à la fin du code principal. Cela permet de créer le fichier où seront sauvegardés les scores. Il est nécessaire de commenter cette partie à la fin de la première partie de jeu, sinon le tableau sera réinitialisé à chaque fois. Pour lancer le jeu, il faut entrer la commande suivante dans le terminal:python motus.py.
 
 Après avoir entré la commande, le jeu va vous proposer de suivre ou non une introduction au jeu dans laquelle se trouve le but et les règles de ce dernier. Il faut alors écrire oui ou non. Il sera demandé au joueur d'entrer son nom. Il servira lors de son inscription dans le tableau des scores s'il fait parti du top 10.
 Une fois l'introduction passée, le joueur doit écrire le niveau qu'il souhaite pour la première manche. Il doit par la suite écrire le mot qu'il souhaite soumettre. A la fin de la manche il lui sera à nouceau demandé de choisir un niveau et ainsi de suite...
