@@ -2,7 +2,7 @@ import random
 import codecs
 
 def niveau (niveau_choisi):
-     """
+    """
     Cette fonction prend en argument un mot niveau_choisi.
     Elle va chechercher aléatoirement un mot dans une liste donnée dans un fichier. 
     La taille du mot dépend de niveau_choisi. 
